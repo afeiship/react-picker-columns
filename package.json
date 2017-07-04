@@ -1,30 +1,30 @@
 {
-  "name": "react-picker-colums",
+  "name": "react-picker-columns",
   "version": "0.1.0",
   "description": "Multiple picker instance for react.",
   "author": "afeiship <1290657123@qq.com>",
   "keywords": [
     "components",
-    "react-picker-colums",
+    "react-picker-columns",
     "ui",
     "theme"
   ],
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/react-picker-colums.git"
+    "url": "git+https://github.com/afeiship/react-picker-columns.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afeiship/react-picker-colums/issues"
+    "url": "https://github.com/afeiship/react-picker-columns/issues"
   },
-  "homepage": "https://github.com/afeiship/react-picker-colums",
+  "homepage": "https://github.com/afeiship/react-picker-columns",
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "docs": "node build/auto-readme.js"
   },
-  "main": "./dist/react-picker-colums.js",
+  "main": "./dist/react-picker-columns.js",
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "autoprefixer-loader": "^3.2.0",

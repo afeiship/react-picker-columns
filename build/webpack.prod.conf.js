@@ -9,8 +9,8 @@ base.entry = {
 base.output = {
   path: config.build.assetsRoot,
   publicPath: config.build.assetsPublicPath,
-  filename: 'react-picker-colums.js',
-  library: 'ReactPickerColums',
+  filename: 'react-picker-columns.js',
+  library: 'ReactPickerColumns',
   libraryTarget: 'umd'
 }
 

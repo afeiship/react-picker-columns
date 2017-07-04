@@ -10,7 +10,7 @@ const targetUsageRE = /## usage:\n```jsx\n(.*)\n```/;
 let readmeFile = path.join(__dirname,'../README.MD');
 let _readmeFile = path.join(__dirname,'../_README.MD');
 let exampleFile = path.join(__dirname,'../src/dev.js');
-let templateFile = path.join(__dirname,'../src/components/react-picker-colums.js');
+let templateFile = path.join(__dirname,'../src/components/react-picker-columns.js');
 
 
 

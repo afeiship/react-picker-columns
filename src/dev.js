@@ -1,10 +1,10 @@
 import './dev.scss';
-import ReactPickerColums from './main';
+import ReactPickerColumns from './main';
 
 /*===example start===*/
 
-// install: npm install afeiship/react-picker-colums --save
-// import : import ReactPickerColums from 'react-picker-colums'
+// install: npm install afeiship/react-picker-columns --save
+// import : import ReactPickerColumns from 'react-picker-columns'
 
 class App extends React.Component{
   state = {
@@ -29,8 +29,8 @@ class App extends React.Component{
 
   render(){
     return (
-      <div className="hello-react-picker-colums">
-        <ReactPickerColums onChange={this._change} items={this.state.items} value={this.state.value} ref='rc' />
+      <div className="hello-react-picker-columns">
+        <ReactPickerColumns onChange={this._change} items={this.state.items} value={this.state.value} ref='rc' />
     </div>
     );
   }

@@ -58,7 +58,7 @@ export default class extends PureComponent{
   render(){
     const { className,items,value,...props } = this.props;
     return (
-      <section {...props} className={ classNames('react-picker-colums',className) }>
+      <section {...props} className={ classNames('react-picker-columns',className) }>
         { this.children }
       </section>
     );

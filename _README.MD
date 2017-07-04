@@ -1,4 +1,4 @@
-# react-picker-colums
+# react-picker-columns
 > Multiple picker instance for react.
 
 
