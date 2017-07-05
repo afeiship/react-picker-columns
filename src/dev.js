@@ -13,7 +13,7 @@ class App extends React.Component{
       [1,2,3,4,5,6,7,8,9,10,11,12],
       [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
     ],
-    value: [ 1990,3,12 ]
+    value: [ 1990,3,12 ],
   };
 
   constructor(props){
@@ -27,9 +27,19 @@ class App extends React.Component{
     console.log(e.target.value.join('-'));
   };
 
+
+  _click1 = e => {
+    console.log('updte items.');
+    const {items,value} = this.state;
+    items[0] = [1990,2017];
+    this.setState({ items: items.slice(0)});
+    console.log(value);
+  };
+
   render(){
     return (
       <div className="hello-react-picker-columns">
+        <button onClick={this._click1}>Update items</button>
         <ReactPickerColumns onChange={this._change} items={this.state.items} value={this.state.value} ref='rc' />
     </div>
     );

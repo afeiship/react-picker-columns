@@ -9,6 +9,7 @@ import objectAssign from 'object-assign';
 import ReactPicker from 'react-picker';
 
 export default class extends PureComponent{
+
   /*===properties start===*/
   static propTypes = {
     className: PropTypes.string,
